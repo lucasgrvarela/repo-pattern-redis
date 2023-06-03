@@ -35,7 +35,7 @@ Key set successfully!
 Key: 'mykey' retrieved, value: 'myvalue'
 ```
 
-5. Test manually everything worked as expected
+5. Test manually everything worked as expected:
 ```bash
 $ docker exec -it redis-server bash
 $ redis-cli # run inside the container
