@@ -30,11 +30,12 @@ $ docker run -d -p 6379:6379 --name redis-server redis
 
 4. Run the Go application:
 ```bash
-$ go run *.go # This will connect to the Redis server and set a key-value pair.
+$ go run *.go
 Key set successfully!
+Key: 'mykey' retrieved, value: 'myvalue'
 ```
 
-5. Test everything worked as expected
+5. Test manually everything worked as expected
 ```bash
 $ docker exec -it redis-server bash
 $ redis-cli # run inside the container
