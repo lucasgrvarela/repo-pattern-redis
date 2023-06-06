@@ -1,4 +1,4 @@
-# Go Redis Example
+# Repository Pattern Redis Example
 
 This is a simple example project that demonstrates how to connect to a Redis database using Go and the `go-redis` library.
 
